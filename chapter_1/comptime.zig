@@ -6,7 +6,7 @@ fn double(x: u32) u32 {
 }
 
 fn Matrix(
-    // The function parameters is tagged with comptime which means
+    // The function parameters are tagged with comptime which means
     // that it will only accept values known at compile-time.
     comptime T: type,
     comptime width: comptime_int,
